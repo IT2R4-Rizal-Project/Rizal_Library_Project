@@ -128,7 +128,13 @@ main {
 .card ul {
     list-style: none;
     padding-left: 1.5rem;
+    margin-left: 1rem;
     margin-bottom: 1.5rem;
+}
+
+.card ul ul {
+  margin-left: 1.5rem;
+  list-style-type: disc;
 }
 
 .card ul li {
