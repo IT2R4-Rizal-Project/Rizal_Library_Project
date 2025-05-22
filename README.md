@@ -2,6 +2,8 @@
 
 A comprehensive digital library dedicated to the life, works, and legacy of Dr. José Rizal, the national hero of the Philippines.
 
+This website is created for educational purposes only. Developed by BSIT-IT2R4 Students under Sir James Edward Bete.
+
 ## Project Overview
 
 This digital library serves as a central repository for:
@@ -29,6 +31,6 @@ This digital library serves as a central repository for:
 
 ## Getting Started
 
-1. Clone this repository
-2. Open `index.html` in your web browser
-3. Navigate through the different sections using the menu
+1. Clone this repository.
+2. Open `index.html` in your web browser.
+3. Navigate through the different sections using the menu.
