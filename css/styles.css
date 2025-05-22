@@ -128,7 +128,13 @@ main {
 .card ul {
     list-style: none;
     padding-left: 1.5rem;
+    margin-left: 1rem;
     margin-bottom: 1.5rem;
+}
+
+.card ul ul {
+  margin-left: 1.5rem;
+  list-style-type: disc;
 }
 
 .card ul li {
@@ -292,36 +298,68 @@ footer {
     margin-top: 4rem;
 }
 
+.footer-container {
+    background-color: #1e3a3a;
+    color: #ffffff;
+    padding: 2rem 1rem;
+}
+
 .footer-content {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 2rem;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 2rem;
 }
 
-.footer-content h3 {
+.footer-box h3 {
     margin-bottom: 1rem;
     font-size: 1.2rem;
+    color: #7fcfb5;
 }
 
-.footer-content ul {
+.footer-box ul {
     list-style: none;
+    padding: 0;
 }
 
-.footer-content ul li {
+.footer-box ul li {
     margin-bottom: 0.5rem;
 }
 
-.footer-content a {
-    color: var(--light-text);
+.footer-box a {
+    color: #ffffff;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
-.footer-content a:hover {
-    color: var(--accent-color);
+.footer-box a:hover {
+    color: #facc15;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 0.5rem;
+}
+
+.social-icons a {
+    color: #ffffff;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #facc15;
+}
+
+.footer-note {
+    text-align: center;
+    margin-top: 2rem;
+    border-top: 1px solid #2e4e4e;
+    padding-top: 1rem;
+    font-size: 0.875rem;
+    color: #cccccc;
 }
 
 /* Responsive Design */
