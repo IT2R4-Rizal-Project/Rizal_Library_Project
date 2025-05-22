@@ -24,9 +24,7 @@ This digital library serves as a central repository for:
 ├── contributors.html   # Project contributors
 ├── Resources.html      # Reference resources
 ├── css/                # Stylesheets
-├── assets/             # Images and media files
-├── chapters/           # Rizal's works and chapters
-└── docs/               # Documentation and resources
+└── chapters/           # Rizal's works and chapters
 ```
 
 ## Getting Started
